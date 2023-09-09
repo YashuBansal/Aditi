@@ -1,0 +1,62 @@
+.topmenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+}
+.topmenu li{
+    float:left;
+}
+.topmenu li:first-child{
+    margin-left: 10%;
+}
+.topmenu li a{
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+#animation{
+    position: relative;
+    animation: topbar 0.8s linear 1 both;
+}
+#animation1{
+    position: relative;
+    animation: topbar 0.8s linear 0.2s 1 both;
+}
+#animation2{
+    position: relative;
+    animation: topbar 0.8s linear 0.4s 1 both;
+}
+#animation3{
+    position: relative;
+    animation: topbar 0.8s linear 0.6s 1 both;
+}
+#animation4{
+    position: relative;
+    animation: topbar 0.8s linear 0.8s 1 both;
+}
+#animation5{
+    position: relative;
+    animation: topbar 0.8s linear 1s 1 both;
+}
+@keyframes topbar{
+    0%{top: -50px;}
+    100%{top: 0px;;}
+}
+.topmenu li a:hover{
+    background-color: #222;
+}
+.topmenu li a:active{
+    background-color: blue;
+    color:white;
+}
+.input{
+    Float:right;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    border-inline: 2px solid black;
+}
